@@ -1,0 +1,11 @@
+version: "1.0"
+profile:
+  name: qodana.starter
+projectJDK: 11
+exclude:
+  - name: All
+    paths:
+      - bazel-bin
+      - bazel-out
+      - bazel-project
+
